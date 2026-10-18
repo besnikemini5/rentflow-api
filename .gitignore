@@ -1,0 +1,26 @@
+# Build output
+target/
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local secrets / environment files (never commit these)
+.env
+.env.*
+
+# H2 file databases (in case file mode is ever enabled)
+*.mv.db
+*.trace.db
